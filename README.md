@@ -11,7 +11,7 @@ Desarrollado como proyecto de aplicación a la **Escuela de Primavera en Deep Le
 ## 🔗 Enlaces
 
 - **Modelo entrenado:** [HuggingFace — JoelVela/banano-eloro-classifier](https://huggingface.co/JoelVela/banano-eloro-classifier)
-- **App móvil (APK):** ver carpeta `banano_eloro_app/`
+- **App móvil (APK):** [Descargar v1.0.0](https://github.com/JoelVelasqueZz/banano-eloro-classifier/releases/tag/v1.0.0)
 
 ---
 
