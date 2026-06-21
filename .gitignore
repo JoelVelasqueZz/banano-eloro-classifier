@@ -1,0 +1,71 @@
+# --- Secrets / credentials ---
+.env
+.env.*
+*.pem
+*.key
+!banano_eloro_app/android/app/**/*.key
+credentials.json
+secrets.*
+**/key.properties
+**/local.properties
+
+# --- Claude Code local config ---
+.claude/
+
+# --- Python / Jupyter ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# --- Large trained model files (already published on HuggingFace) ---
+banano_eloro_DL/checkpoints/
+banano_eloro_DL/export/*.tflite
+
+# --- Flutter / Dart ---
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.metadata
+**/.packages
+**/.pub-cache/
+**/.pub/
+**/app.*.symbols
+**/app.*.map.json
+
+# Android
+**/android/.gradle/
+**/android/captures/
+**/android/local.properties
+**/android/key.properties
+
+# iOS / macOS
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/ephemeral/
+**/ios/Pods/
+**/ios/.symlinks/
+**/macos/Flutter/ephemeral/
+
+# Web
+**/web/.dart_tool/
+
+# Windows / Linux desktop runners (generated)
+**/windows/flutter/ephemeral/
+**/linux/flutter/ephemeral/
+
+# --- IDE / editors ---
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# --- OS noise ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Node (in case any tooling adds it later) ---
+node_modules/
